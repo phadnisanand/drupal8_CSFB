@@ -1,0 +1,12 @@
+amazing_forms.example:
+  title: Demo Example
+  parent: system.admin_structure
+  route_name: amazing_forms_example
+  weight: 9
+  menu_name: admin
+
+amazing_forms.outline:
+  title: Form demo
+  route_name: amazing_forms_outline
+  menu_name: main
+

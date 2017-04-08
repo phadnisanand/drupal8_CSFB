@@ -1,0 +1,13 @@
+amazing_forms_example:
+  path: 'amazing_forms/example'
+  defaults:
+    _controller: '\Drupal\amazing_forms\Controller\DemoController::demo'
+  requirements:
+    _permission: 'access content'
+
+amazing_forms_outline:
+  path: 'amazing_forms/contribute'
+  defaults:
+    _form: '\Drupal\amazing_forms\Form\ContributeForm'
+  requirements:
+   _permission: 'access content'

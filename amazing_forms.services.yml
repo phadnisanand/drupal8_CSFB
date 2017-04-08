@@ -1,0 +1,3 @@
+services:
+    amazing_forms.demo_service:
+        class: Drupal\amazing_forms\DemoService
